@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: -moz-linear-gradient(to bottom, #FFA0CB,#ff0066);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+.container, .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headings{
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+}
+.todo-list{
+    list-style: none;
+    min-width: 2.5rem;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around;
+    align-content: space-between; */
+    margin-top: 1rem;
+    font-size: 1rem;
+    width: 50%;
+}
+.todo-item{
+    display: flex;
+    background-color: #fff;
+     padding: 1rem 0 1rem .8rem;
+    margin: .5rem;
+}
+.todo{
+    flex: 1;
+    font-size: 1.2rem;
+}
+.fasc{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.inputs{
+    outline:none;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    border: none;
+}
+
+.fa-plus-square{
+    font-size: 3.5rem;
+    background-color: #fff;
+    color: #ff0066;    
+}
+.fa-plus-square:hover{
+    background: #ff0066;
+    color: #fff;
+}
+.fa-trash{
+    margin-right: .5rem;
+}
+.fa-check, .fa-trash{
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: #fff;
+    padding: .3rem;
+}
+.fa-trash:hover{
+    background: #ff0066;
+    color: #fff;
+}
+.fa-check:hover{
+    background: #ff0066;
+    color: #fff;
+}
